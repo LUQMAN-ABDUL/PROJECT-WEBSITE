@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <script src="https://kit.fontawesome.com/15f1acd570.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container"> 
+            <nav> 
+                <img src="./images/richlogo.jpeg" class="logo">
+                <ul id="sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>                     
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>   
+            </nav>
+            <div class="header-text"> 
+                <p>Graphic Designer/Web Developer</p>
+                <h1>Hello Guys, I am Richard Zevor.A Front End Developer and Graphic Designer from Ghana.</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------about-------------->
+    <div id="About"> 
+        <div class="container"> 
+            <div class="row"> 
+                <div class="about-col-1"> 
+                    <img src="./images/zevoimg1.jpeg" >
+                </div>
+                <div class="about-col-2"> 
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Graphic and Web designer who is well vested in the areas of  maths,science and technology.<br>
+                        Graphic designing and Web development are my two top most Front end development fields.<br>
+                        I have contributed to many works perculiar to Front end development,specifically web development as well 
+                        as Graphic designing.
+                    </p>
+                    <div class="tab-titles"> 
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills"> 
+                        <ul> 
+                            <li><span>Graphic Design<br>Designing Interface</span></li>
+                            <li><span>Web development<br>Web app development</span></li>
+                            <li><span>App development<br>Building android/ios apps</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience"> 
+                        <ul> 
+                            <li><span>2022-Current<br>Graphic Designer at Destiny Graphics</span></li>
+                            <li><span>2021-2022<br>Web and Graphic designer at God's Plan Creative Academy</span></li>
+                            <li><span>2020-2021<br>Internship at Daniels Graphics</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education"> 
+                        <ul> 
+                            <li><span>2022<br> Graphic designing at Destiny Graphics</span></li>
+                            <li><span>2021<br>Student at God's Plan Creative Academy</span></li>
+                            <li><span>2020<br>Mentored and lectured as a designer by Denixx Kreatives</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------services------------->
+    <div id="services"> 
+        <div class="container"> 
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list"> 
+            <div>     
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>Graphic Design</h2>
+                <p>Graphic designs such as flyers,grahic cards,animation videos,business cards,etc</p>
+                <a href="#">Learn more about my services.</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Employment of flutter in designing user friendly mobile apps for users</p>
+                <a href="#">Learn more about my services.</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i> 
+                <h2>Web Design</h2>
+                <p>Creation of responsive websites for clients</p>
+                <a href="#">Learn more about my services.</a>
+            </div>
+        </div>
+    </div>
+    <!----------------portfolio------------->
+    <div id="portfolio"> 
+        <div class="container"> 
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list"> 
+                <div class="work"> 
+                    <img src="./images/richflyer.jpeg" >
+                    <div class="layer">
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="./images/gelatoimg.jpeg">
+                    <div class="layer"> 
+                       
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="./images/barberimg.jpeg" >
+                    <div class="layer"> 
+                        
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="./images/richflyer2.jpeg" >
+                    <div class="layer"> 
+                        
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="./images/richflyer3.jpeg">
+                    <div class="layer"> 
+                        
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="./images/3Dimg.jpeg" >
+                    <div class="layer"> 
+                        
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="./images/ablazeimg.jpeg">
+                    <div class="layer"> 
+                        
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="./images/eddyimg.jpeg">
+                    <div class="layer"> 
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="./images/churchimg.jpeg">
+                    <div class="layer"> 
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="./images/presimg.jpeg">
+                    <div class="layer"> 
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="./images/presisosuimg.jpeg" >
+                    <div class="layer"> 
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="./images/marimg.jpeg" >
+                    <div class="layer"> 
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#"class="btn">Back</a>    
+        </div>
+    </div>
+    <!-------------contact--------->
+    <div id="contact"> 
+        <div class="container"> 
+            <div class="row">
+
+             <div class="contact-left"> 
+                <h1 class="sub-title">Contact Information</h1>
+                <p><i class="fa-solid fa-envelope"></i>richardzevor0@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>0554504850/0530754362</p>
+                <div class="social-icons"> 
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+                <a href="#" class="btn btn2">Hire me</a>
+             </div>
+             
+             <div class="contact-right">
+                <h2>Comment Section</h2>
+             <form name="submit-to-google-sheet"> 
+                <input type="text" name="Name" placeholder="Enter your name" required>
+                <input type="text" name="Country" placeholder="Enter name of your country" required>
+                <input type="email" name="Email" placeholder="Enter your email" required>
+                <textarea name="Comment section"  rows="6" placeholder="Give comment about the website"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+             </form>
+             <span id="msg"></span>
+            </div>
+            </div>
+        </div>
+        <div class="copyright"> 
+            <p>&copy 2024.Made with <i class="fa-solid fa-heart"></i>.All rights reserved.</p>
+        </div>
+    </div>
+
+    <script> 
+        const tablinks = document.getElementsByClassName("tab-links");
+        const tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){ 
+            for(tablink of tablinks){ 
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){ 
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+    </script>
+    <script> 
+       const sidemeu = document.getElementById("sidemenu");
+       function openmenu(){ 
+        sidemeu.style.right = "0";
+       }
+       function closemenu(){
+        sidemeu.style.right = "-200px";
+       }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwC2JIrKvH8K34hbSvcVM_FSs8QE8CuwNEa2_mfh8kTSECiiEYu_LpyK7pQrZNv6snJgw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => { 
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){ 
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
