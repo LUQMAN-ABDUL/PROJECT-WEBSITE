@@ -1,1 +1,1 @@
-This projectis basically a portfolio website.
+This project is basically a portfolio website I created for a Graphic designer.
